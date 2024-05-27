@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Cadastro</title>
+</head>
+
+<body>
+	<h1>
+		Preencha os dados abaixo
+	</h1>
+	<div class='janela'>
+		<div class='div_01'>
+			<label>Nome:</label><br>
+			<label>Idade:</label><br>
+			<label>CPF:</label>
+		</div>
+		<div class='div_02'>
+			<input type="text" id="entry_nome">
+			<input type="number" id="entry_idade">
+			<input type="text" id="entry_cpf">
+		</div>	
+	</div>
+	<button class='btn_salvar' onclick='salvar()'>Salvar</button>
+	<button class='btn_limpar' onclick='limpar()'>Limpar</button>
+	<script src="script.js"></script>
+</body>
+
+</html>

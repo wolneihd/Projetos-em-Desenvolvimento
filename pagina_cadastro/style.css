@@ -1,0 +1,100 @@
+h1 {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	background-color: #595959;
+	border-radius: 10px;
+}
+
+.janela {
+	display: flex;
+	margin: 10px;
+	font-family: Verdana;
+	font-size: 20px;
+	line-height: 2;
+	
+}
+
+.div_01 {
+	width: 20%;
+	text-align: right;
+	background-color: white;
+}
+
+.div_02 {
+	width: 50%;
+	display: grid;
+	font-family: Verdana;
+	font-size: 20px;
+	padding: 5px;
+}
+
+#entry_idade {
+	width: 80px;
+	font-family: Verdana;
+	font-size: 20px;
+	text-align: right;
+}
+
+#entry_nome {
+	font-family: Verdana;
+	font-size: 20px;
+	width: 500px;
+}
+
+#entry_cpf {
+	font-family: Verdana;
+	font-size: 20px;
+	width: 200px;
+}
+
+.btn_salvar {
+	font-family: Verdana;
+	font-size: 20px;
+	width: 100px;
+	margin-left: 30%;
+	background-color: #ff8080;
+	border-radius: 10px;
+}
+
+.btn_limpar {
+	font-family: Verdana;
+	font-size: 20px;
+	width: 100px;
+	margin-left: 1%;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+}
+
+.btn_salvar:hover {
+	background-color: #ffcccc;
+}
+
+.texto_sucesso {
+	color: green;
+	background: white;
+	font-family: Verdana;
+	font-size: 20px;
+	margin-left: 30%;
+	border: solid;
+	width: 40%;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #c6ecc6;
+	padding: 5px;
+}
+
+.texto_erro {
+	color: red;
+	background: white;
+	font-family: Verdana;
+	font-size: 20px;
+	margin-left: 30%;
+	border: solid;
+	width: 40%;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #ffb3b3;
+	padding: 5px;
+}
