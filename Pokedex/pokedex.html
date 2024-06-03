@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="pokedex.css" />
+</head>
+
+<body>
+	<nav class='navbar'>
+		<img src='https://ik.imagekit.io/hwyksvj4iv/pokedex_N_WgWrJK0s.png' />
+		<h1>Pokedex</h1>
+	</nav>
+	<div class='container_busca'>
+		<input type='text' id='pokemonName' placeholder="Digite o nome do Pokemon"/>
+		<button onclick='fetchData()' class='botao'>BUSCAR!</button>
+		
+		<input type='number' id='pokemonId' placeholder='N°'/>
+		<button onclick='fetchNumero()' class='botao'>BUSCAR!</button>
+	</div>
+	<div class='container_resultado'>
+		<div class='image'>
+			<img src='' alt='pokemon Sprite' id='pokemonSprite' style='display: none'>
+		</div>		
+		<div class='dados_pokemon'>
+			<p id='nomePok'></p>
+			<p id='tipoPok'></p>
+		</div>
+	</div>
+  <script src="pokedex.js"></script>
+</body>
+
+</html>
