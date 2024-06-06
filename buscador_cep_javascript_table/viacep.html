@@ -1,0 +1,27 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browser</title>
+  <link rel="stylesheet" href="viacep.css" />
+</head>
+
+<body id='body'>
+	<input type='text' placeholder='cidade' id='cidade'/>
+	<input type='text' placeholder='UF' id='uf'/>
+	<input type='text' placeholder='logradouro' id='logradouro'/>
+	<button onclick="fetchData()">BUSCAR</button>
+
+	<table id='table'>
+		<thead></thead>
+		<tbody></tbody>
+	</table>
+	<script src="viacep.js"></script>
+</body>
+
+</html>
